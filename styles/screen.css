@@ -8,8 +8,8 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 500px;
-    border-radius: 100px;
+    width: 80%; /* Adjust width as needed */
+    border-radius: 20px; /* Adjust border-radius as needed */
     background: #212431;
 }
 
@@ -36,6 +36,7 @@ nav ul li a {
 h1 {
     font-size: 6em;
     letter-spacing: -2px;
+    text-align: center;
 }
 
 h1 strong {
@@ -48,13 +49,19 @@ h1 strong {
 h2 {
     background-color: #323247;
     font-size: 2em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+    width: 75%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the box */
+}
+
+h3 {
+    background-color: #323247;
+    font-size: 1em;
+    padding: 10px;
+    width: 60%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the box */
 }
 
 img.about {
     opacity: 0.5;
 }
-
