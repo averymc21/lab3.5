@@ -8,8 +8,8 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
+    width: 500px;
+    border-radius: 100px;
     background: #212431;
 }
 
@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: -2px;
 }
 
@@ -45,6 +45,16 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
+h2 {
+    background-color: #323247;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 img.about {
     opacity: 0.5;
 }
+
